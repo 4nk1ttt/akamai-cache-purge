@@ -33,7 +33,14 @@ pip install -r requirements.txt
 
 ### Configure API Credentials
 
-- Provide your Akamai API credentials in the `config` file.
+- Provide your Akamai API credentials in the `.env` file using the following format:
+
+```env
+AKAMAI_CLIENT_SECRET=lApvuZUFRxxxxxxxxxxxxmhxdbEg=
+AKAMAI_HOST=akab-xxxxxxxx-xxxxxxxxxx.akamaiapis.net
+AKAMAI_ACCESS_TOKEN=akab-xxxxxxxxxxx-dfvksk2ab4uyuvtb
+AKAMAI_CLIENT_TOKEN=akab-xxxxxxxxxxx-x7oqsvrbxp3qklqt
+```
 
 ### Run the Backend Server
 
